@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=country\ port\ link\ content\ tittle
+comment0.target=WebPage(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.params=
+comment1.target=java.lang.String\ getLink()
+comment1.text=public\ WebPage(String\ country,\ String\ port,\ String\ link,\ String\ imageLocation){\ //needs\ to\ be\ different\ not\ shore\ how\ tho\ boolean\ value?\r\n\ \ \ \ this.country\ \=\ country;\r\n\ \ \ \ this.port\ \=\ port;\r\n\ \ \ \ this.link\ \=\ link;\r\n\ \ \ \ this.content\ \=\ imageLocation;\r\n\r\n}*
+comment2.params=
+comment2.target=java.lang.String\ getTittle()
+comment3.params=
+comment3.target=java.lang.String\ getContent()
+comment4.params=
+comment4.target=void\ remove()
+numComments=5

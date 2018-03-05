@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Process()
+comment1.params=
+comment1.target=void\ setUpLinks()
+comment2.params=
+comment2.target=java.lang.String\ newLink()
+comment3.params=
+comment3.target=void\ populateGui()
+comment4.params=link\ port
+comment4.target=java.lang.String\ precursorScrape(java.lang.String,\ java.lang.String)
+comment5.params=link\ start\ end
+comment5.target=void\ scrape(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment6.params=html
+comment6.target=java.lang.String\ html2text(java.lang.String)
+numComments=7

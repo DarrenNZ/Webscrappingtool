@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Digger()
+comment1.params=
+comment1.target=void\ digger()
+comment2.params=url\ n
+comment2.target=void\ digletMethod(java.lang.String,\ int)
+comment3.params=html
+comment3.target=java.lang.String\ html2text(java.lang.String)
+comment3.text=\r\n\ \ \ \ for(Element\ link\ \:\ newLinks)\ {\r\n\ \ \ \ //goes\ to\ webpage\ gets\ text\ &\ gets\ count\ of\ searchname\r\n\ \ \ \ String\ url\ \=\ link.getAt("href");\r\n\ \ \ \ UserAgent\ User\ \=\ new\ UserAgent();\r\n\ \ \ \ User.visit(url);//(link.getAt("href"));\r\n\ \ \ \ Element\ body\ \=\ userAgent.doc.findFirst("body");\r\n\ \ \ \ String\ outPut\ \=\ body.innerText();\r\n\ \ \ \ outPut\ \=\ this.html2text(outPut);\r\n\r\n\ \ \ \ //UI.println(url\ +\ "\:\ \ \ "\ +\ str\ +\ "\:\ \ "\ \ +\ findStr);\r\n\r\n\ \ \ \ if\ (result\ >\ this.biggestResult){\r\n\ \ \ \ biggestResult\ \=\ result;\r\n\ \ \ \ String\ theBest\ \=\ url;\r\n\ \ \ \ }\r\n\r\n\ \ \ \ //if\ it\ is\ more\ then\ other\ then\ do\ the\ below\r\n\ \ \ \ //Elements\ temp\ \=\ userAgent.doc.findEvery("<h3\ class\=r>").findEvery("<a>");\r\n\r\n\ \ \ \ }\r\n\ \ \ \ //HERE\ you\ do\ the\ recursive\ call..maybe\r\n
+numComments=4
